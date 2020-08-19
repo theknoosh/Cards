@@ -10,6 +10,9 @@
 		1694346F24DE831D00095240 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1694346E24DE831D00095240 /* MemoryGame.swift */; };
 		1694347124DFC1DB00095240 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1694347024DFC1DB00095240 /* EmojiMemoryGame.swift */; };
 		16BF3B6D24E9A985007997C8 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BF3B6C24E9A985007997C8 /* Grid.swift */; };
+		16BF3B6F24E9B47D007997C8 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BF3B6E24E9B47D007997C8 /* GridLayout.swift */; };
+		16BF3B7124EA509D007997C8 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BF3B7024EA509D007997C8 /* Array+Identifiable.swift */; };
+		16BF3B7324ED6493007997C8 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BF3B7224ED6493007997C8 /* Array+Only.swift */; };
 		16F6A6C924C92F3B002FA785 /* CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F6A6C824C92F3B002FA785 /* CardsApp.swift */; };
 		16F6A6CB24C92F3B002FA785 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F6A6CA24C92F3B002FA785 /* EmojiMemoryGameView.swift */; };
 		16F6A6CD24C92F3D002FA785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F6A6CC24C92F3D002FA785 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 		1694346E24DE831D00095240 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		1694347024DFC1DB00095240 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		16BF3B6C24E9A985007997C8 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		16BF3B6E24E9B47D007997C8 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		16BF3B7024EA509D007997C8 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		16BF3B7224ED6493007997C8 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 		16F6A6C524C92F3B002FA785 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F6A6C824C92F3B002FA785 /* CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsApp.swift; sourceTree = "<group>"; };
 		16F6A6CA24C92F3B002FA785 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
@@ -63,9 +69,12 @@
 				1694346E24DE831D00095240 /* MemoryGame.swift */,
 				1694347024DFC1DB00095240 /* EmojiMemoryGame.swift */,
 				16F6A6CC24C92F3D002FA785 /* Assets.xcassets */,
+				16BF3B6E24E9B47D007997C8 /* GridLayout.swift */,
 				16F6A6D124C92F3D002FA785 /* Info.plist */,
 				16F6A6CE24C92F3D002FA785 /* Preview Content */,
 				16BF3B6C24E9A985007997C8 /* Grid.swift */,
+				16BF3B7024EA509D007997C8 /* Array+Identifiable.swift */,
+				16BF3B7224ED6493007997C8 /* Array+Only.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -150,8 +159,11 @@
 				1694346F24DE831D00095240 /* MemoryGame.swift in Sources */,
 				16F6A6CB24C92F3B002FA785 /* EmojiMemoryGameView.swift in Sources */,
 				16F6A6C924C92F3B002FA785 /* CardsApp.swift in Sources */,
+				16BF3B6F24E9B47D007997C8 /* GridLayout.swift in Sources */,
 				16BF3B6D24E9A985007997C8 /* Grid.swift in Sources */,
+				16BF3B7124EA509D007997C8 /* Array+Identifiable.swift in Sources */,
 				1694347124DFC1DB00095240 /* EmojiMemoryGame.swift in Sources */,
+				16BF3B7324ED6493007997C8 /* Array+Only.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
