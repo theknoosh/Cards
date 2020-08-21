@@ -9,11 +9,12 @@ import Foundation
 
 // This is the model
 struct MemoryGame<CardContent> where CardContent: Equatable { // CardContent is "don't care type" so can take any type
-    var cards: Array<Card>
+    private(set) var cards: Array<Card>
     
     // Computed property (functional programming)
-    var indexOfTheOneAndOnlyFaceUpCard: Int? {
+    private var indexOfTheOneAndOnlyFaceUpCard: Int? {
         get { cards.indices.filter { cards[$0].isFaceUp }.only }
+        
         set {
             for index in cards.indices {
                 cards[index].isFaceUp = index == newValue
