@@ -20,11 +20,15 @@ class EmojiMemoryGame: ObservableObject {
     }
     
     var cards: Array<MemoryGame<String>.Card> {
-        model.cards // One line does not require return
+        model.cards // One line does not require return statement
     }
     
     // MARK: - Intent(s)
     func choose(card: MemoryGame<String>.Card) {
         model.choose(card: card)
+    }
+    
+    func resetGame() {
+        model = EmojiMemoryGame.createMemoryGame()
     }
 }
